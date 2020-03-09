@@ -88,32 +88,32 @@
       <keyword>amp_velcurve_</keyword>
       <keyword>amp_veltrack</keyword>
       <keyword>ampeg_attack</keyword>
-      <keyword>ampeg_attack_oncc</keyword>
+      <keyword>ampeg_attack_oncc\%{N}</keyword>
       <keyword>ampeg_attack_shape</keyword>
-      <keyword>ampeg_attackcc</keyword>
+      <keyword>ampeg_attackcc\%{N}</keyword>
       <keyword>ampeg_decay</keyword>
-      <keyword>ampeg_decay_oncc</keyword>
+      <keyword>ampeg_decay_oncc\%{N}</keyword>
       <keyword>ampeg_decay_shape</keyword>
       <keyword>ampeg_decay_zero</keyword>
-      <keyword>ampeg_decaycc</keyword>
+      <keyword>ampeg_decaycc\%{N}</keyword>
       <keyword>ampeg_delay</keyword>
-      <keyword>ampeg_delay_oncc</keyword>
-      <keyword>ampeg_delaycc</keyword>
+      <keyword>ampeg_delay_oncc\%{N}</keyword>
+      <keyword>ampeg_delaycc\%{N}</keyword>
       <keyword>ampeg_dynamic</keyword>
       <keyword>ampeg_hold</keyword>
-      <keyword>ampeg_hold_oncc</keyword>
-      <keyword>ampeg_holdcc</keyword>
+      <keyword>ampeg_hold_oncc\%{N}</keyword>
+      <keyword>ampeg_holdcc\%{N}</keyword>
       <keyword>ampeg_release</keyword>
-      <keyword>ampeg_release_oncc</keyword>
+      <keyword>ampeg_release_oncc\%{N}</keyword>
       <keyword>ampeg_release_shape</keyword>
       <keyword>ampeg_release_zero</keyword>
-      <keyword>ampeg_releasecc</keyword>
+      <keyword>ampeg_releasecc\%{N}</keyword>
       <keyword>ampeg_start</keyword>
-      <keyword>ampeg_start_onccN</keyword>
-      <keyword>ampeg_startccN</keyword>
+      <keyword>ampeg_start_oncc\%{N}</keyword>
+      <keyword>ampeg_startcc\%{N}</keyword>
       <keyword>ampeg_sustain</keyword>
-      <keyword>ampeg_sustain_oncc</keyword>
-      <keyword>ampeg_sustaincc</keyword>
+      <keyword>ampeg_sustain_oncc\%{N}</keyword>
+      <keyword>ampeg_sustaincc\%{N}</keyword>
       <keyword>ampeg_vel2attack</keyword>
       <keyword>ampeg_vel2decay</keyword>
       <keyword>ampeg_vel2delay</keyword>
@@ -122,20 +122,20 @@
       <keyword>ampeg_vel2sustain</keyword>
       <keyword>amplfo_delay</keyword>
       <keyword>amplfo_depth</keyword>
-      <keyword>amplfo_depthcc</keyword>
+      <keyword>amplfo_depthcc\%{N}</keyword>
       <keyword>amplfo_depthchanaft</keyword>
       <keyword>amplfo_depthpolyaft</keyword>
       <keyword>amplfo_fade</keyword>
       <keyword>amplfo_freq</keyword>
-      <keyword>amplfo_freqcc</keyword>
+      <keyword>amplfo_freqcc\%{N}</keyword>
       <keyword>amplfo_freqchanaft</keyword>
       <keyword>amplfo_freqpolyaft</keyword>
       <keyword>amplitude</keyword>
-      <keyword>amplitude_cc</keyword>
-      <keyword>amplitude_curvecc</keyword>
+      <keyword>amplitude_cc\%{N}</keyword>
+      <keyword>amplitude_curvecc\%{N}</keyword>
       <keyword>amplitude_mod</keyword>
-      <keyword>amplitude_oncc</keyword>
-      <keyword>amplitude_smoothcc</keyword>
+      <keyword>amplitude_oncc\%{N}</keyword>
+      <keyword>amplitude_smoothcc\%{N}</keyword>
       <keyword>bend_down</keyword>
       <keyword>bend_smooth</keyword>
       <keyword>bend_step</keyword>
@@ -149,28 +149,28 @@
       <keyword>curve_index</keyword>
       <keyword>cutoff</keyword>
       <keyword>cutoff2</keyword>
-      <keyword>cutoff2_curvecc</keyword>
+      <keyword>cutoff2_curvecc\%{N}</keyword>
       <keyword>cutoff2_mod</keyword>
-      <keyword>cutoff2_oncc</keyword>
-      <keyword>cutoff2_smoothcc</keyword>
-      <keyword>cutoff2_stepcc</keyword>
-      <keyword>cutoff_cc</keyword>
+      <keyword>cutoff2_oncc\%{N}</keyword>
+      <keyword>cutoff2_smoothcc\%{N}</keyword>
+      <keyword>cutoff2_stepcc\%{N}</keyword>
+      <keyword>cutoff_cc\%{N}</keyword>
       <keyword>cutoff_chanaft</keyword>
-      <keyword>cutoff_curvecc</keyword>
+      <keyword>cutoff_curvecc\%{N}</keyword>
       <keyword>cutoff_mod</keyword>
-      <keyword>cutoff_oncc</keyword>
+      <keyword>cutoff_oncc\%{N}</keyword>
       <keyword>cutoff_polyaft</keyword>
-      <keyword>cutoff_smoothcc</keyword>
-      <keyword>cutoff_stepcc</keyword>
+      <keyword>cutoff_smoothcc\%{N}</keyword>
+      <keyword>cutoff_stepcc\%{N}</keyword>
       <keyword>default_path</keyword>
       <keyword>delay</keyword>
       <keyword>delay_beats</keyword>
       <keyword>delay_beats_mod</keyword>
-      <keyword>delay_cc</keyword>
+      <keyword>delay_cc\%{N}</keyword>
       <keyword>delay_mod</keyword>
       <keyword>delay_random</keyword>
       <keyword>delay_samples</keyword>
-      <keyword>delay_samples_oncc</keyword>
+      <keyword>delay_samples_oncc\%{N}</keyword>
       <keyword>direction</keyword>
       <keyword>directives</keyword>
       <keyword>effect1</keyword>
@@ -409,33 +409,33 @@
       <keyword>on_locc\%{N}</keyword>
       <keyword>output</keyword>
       <keyword>pan</keyword>
-      <keyword>pan_oncc</keyword>
+      <keyword>pan_oncc\%{N}</keyword>
       <keyword>pan_cc\%{N}</keyword>
       <keyword>pan_curvecc\%{N}</keyword>
       <keyword>pan_law</keyword>
       <keyword>pan_mod</keyword>
-      <keyword>pan_oncc</keyword>
-      <keyword>pan_smoothcc</keyword>
+      <keyword>pan_oncc\%{N}</keyword>
+      <keyword>pan_smoothcc\%{N}</keyword>
       <keyword>pan_stepcc\%{N}</keyword>
       <keyword>param_offset</keyword>
       <keyword>phase</keyword>
-      <keyword>pitch_curvecc</keyword>
+      <keyword>pitch_curvecc\%{N}</keyword>
       <keyword>pitch_keycenter</keyword>
       <keyword>pitch_keytrack</keyword>
       <keyword>pitch_mod</keyword>
-      <keyword>pitch_oncc</keyword>
+      <keyword>pitch_oncc\%{N}</keyword>
       <keyword>pitch_random</keyword>
       <keyword>pitch_smoothcc\%{N}</keyword>
       <keyword>pitch_stepcc\%{N}</keyword>
       <keyword>pitch_veltrack</keyword>
       <keyword>pitcheg_attack</keyword>
       <keyword>pitcheg_decay</keyword>
-      <keyword>pitcheg_decay_oncc</keyword>
+      <keyword>pitcheg_decay_oncc\%{N}</keyword>
       <keyword>pitcheg_decay_shape</keyword>
       <keyword>pitcheg_delay</keyword>
       <keyword>pitcheg_delay_oncc\%{N}</keyword>
       <keyword>pitcheg_depth</keyword>
-      <keyword>pitcheg_depth_oncc</keyword>
+      <keyword>pitcheg_depth_oncc\%{N}</keyword>
       <keyword>pitcheg_dynamic</keyword>
       <keyword>pitcheg_hold</keyword>
       <keyword>pitcheg_release</keyword>
@@ -449,13 +449,13 @@
       <keyword>pitcheg_vel2release</keyword>
       <keyword>pitchlfo_delay</keyword>
       <keyword>pitchlfo_depth</keyword>
-      <keyword>pitchlfo_depth_oncc</keyword>
-      <keyword>pitchlfo_depthcc</keyword>
+      <keyword>pitchlfo_depth_oncc\%{N}</keyword>
+      <keyword>pitchlfo_depthcc\%{N}</keyword>
       <keyword>pitchlfo_depthchanaft</keyword>
       <keyword>pitchlfo_depthpolyaft</keyword>
       <keyword>pitchlfo_fade</keyword>
       <keyword>pitchlfo_freq</keyword>
-      <keyword>pitchlfo_freqcc</keyword>
+      <keyword>pitchlfo_freqcc\%{N}</keyword>
       <keyword>pitchlfo_freqchanaft</keyword>
       <keyword>pitchlfo_freqpolyaft</keyword>
       <keyword>polyphony</keyword>
@@ -494,7 +494,7 @@
       <keyword>stop_beats_mod</keyword>
       <keyword>stop_hicc\%{N}</keyword>
       <keyword>stop_locc\%{N}</keyword>
-      <keyword>sustain_cc</keyword>
+      <keyword>sustain_cc\%{N}</keyword>
       <keyword>sustain_lo</keyword>
       <keyword>sustain_sw</keyword>
       <keyword>sw_default</keyword>
