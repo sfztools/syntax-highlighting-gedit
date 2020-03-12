@@ -227,6 +227,7 @@
       <keyword>eq\%{eqN}_gain</keyword>
       <keyword>eq\%{eqN}_gaincc\%{N}</keyword>
       <keyword>eq\%{eqN}_gain_oncc\%{N}</keyword>
+      <keyword>eq\%{eqN}_type</keyword>
       <keyword>eq\%{eqN}_vel2freq</keyword>
       <keyword>eq\%{eqN}_vel2gain</keyword>
       <keyword>fil2_gain</keyword>
