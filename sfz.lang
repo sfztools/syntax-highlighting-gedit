@@ -184,12 +184,12 @@
       <keyword>eg\%{N}_cutoff_oncc\%{N}</keyword>
       <keyword>eg\%{N}_depth_lfo\%{N}</keyword>
       <keyword>eg\%{N}_depthadd_lfo\%{N}</keyword>
-      <keyword>eg\%{N}_eq\%{N}bw</keyword>
-      <keyword>eg\%{N}_eq\%{N}bw_oncc\%{N}</keyword>
-      <keyword>eg\%{N}_eq\%{N}freq</keyword>
-      <keyword>eg\%{N}_eq\%{N}freq_oncc\%{N}</keyword>
-      <keyword>eg\%{N}_eq\%{N}gain</keyword>
-      <keyword>eg\%{N}_eq\%{N}gain_oncc\%{N}</keyword>
+      <keyword>eg\%{N}_eq\%{eqN}bw</keyword>
+      <keyword>eg\%{N}_eq\%{eqN}bw_oncc\%{N}</keyword>
+      <keyword>eg\%{N}_eq\%{eqN}freq</keyword>
+      <keyword>eg\%{N}_eq\%{eqN}freq_oncc\%{N}</keyword>
+      <keyword>eg\%{N}_eq\%{eqN}gain</keyword>
+      <keyword>eg\%{N}_eq\%{eqN}gain_oncc\%{N}</keyword>
       <keyword>eg\%{N}_freq_lfo\%{N}</keyword>
       <keyword>eg\%{N}_level\%{N}</keyword>
       <keyword>eg\%{N}_level\%{N}_oncc\%{N}</keyword>
@@ -218,17 +218,17 @@
       <keyword>eg\%{N}_width\%{N}_oncc\%{N}</keyword>
       <keyword>end</keyword>
       <keyword>eq\%{eqN}_bw</keyword>
-      <keyword>eq\%{N}_bwcc\%{N}</keyword>
-      <keyword>eq\%{N}_bw_oncc\%{N}</keyword>
-      <keyword>eq\%{N}_dynamic</keyword>
-      <keyword>eq\%{N}_freq</keyword>
-      <keyword>eq\%{N}_freqcc\%{N}</keyword>
-      <keyword>eq\%{N}_freq_oncc\%{N}</keyword>
-      <keyword>eq\%{N}_gain</keyword>
-      <keyword>eq\%{N}_gaincc\%{N}</keyword>
-      <keyword>eq\%{N}_gain_oncc\%{N}</keyword>
-      <keyword>eq\%{N}_vel2freq</keyword>
-      <keyword>eq\%{N}_vel2gain</keyword>
+      <keyword>eq\%{eqN}_bwcc\%{N}</keyword>
+      <keyword>eq\%{eqN}_bw_oncc\%{N}</keyword>
+      <keyword>eq\%{eqN}_dynamic</keyword>
+      <keyword>eq\%{eqN}_freq</keyword>
+      <keyword>eq\%{eqN}_freqcc\%{N}</keyword>
+      <keyword>eq\%{eqN}_freq_oncc\%{N}</keyword>
+      <keyword>eq\%{eqN}_gain</keyword>
+      <keyword>eq\%{eqN}_gaincc\%{N}</keyword>
+      <keyword>eq\%{eqN}_gain_oncc\%{N}</keyword>
+      <keyword>eq\%{eqN}_vel2freq</keyword>
+      <keyword>eq\%{eqN}_vel2gain</keyword>
       <keyword>fil2_gain</keyword>
       <keyword>fil2_type</keyword>
       <keyword>fil_gain</keyword>
@@ -309,18 +309,18 @@
       <keyword>lfo\%{N}_delay_oncc\%{N}</keyword>
       <keyword>lfo\%{N}_depth_lfo\%{N}</keyword>
       <keyword>lfo\%{N}_depthadd_lfo\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}bw</keyword>
-      <keyword>lfo\%{N}_eq\%{N}bw_oncc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}bw_smoothcc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}bw_stepcc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}freq</keyword>
-      <keyword>lfo\%{N}_eq\%{N}freq_oncc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}freq_smoothcc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}freq_stepcc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}gain</keyword>
-      <keyword>lfo\%{N}_eq\%{N}gain_oncc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}gain_smoothcc\%{N}</keyword>
-      <keyword>lfo\%{N}_eq\%{N}gain_stepcc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}bw</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}bw_oncc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}bw_smoothcc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}bw_stepcc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}freq</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}freq_oncc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}freq_smoothcc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}freq_stepcc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}gain</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}gain_oncc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}gain_smoothcc\%{N}</keyword>
+      <keyword>lfo\%{N}_eq\%{eqN}gain_stepcc\%{N}</keyword>
       <keyword>lfo\%{N}_fade</keyword>
       <keyword>lfo\%{N}_fade_oncc\%{N}</keyword>
       <keyword>lfo\%{N}_freq</keyword>
@@ -524,9 +524,9 @@
       <keyword>var\%{N}_curvecc\%{N}</keyword>
       <keyword>var\%{N}_cutoff</keyword>
       <keyword>var\%{N}_cutoff2</keyword>
-      <keyword>var\%{N}_eq\%{N}bw</keyword>
-      <keyword>var\%{N}_eq\%{N}freq</keyword>
-      <keyword>var\%{N}_eq\%{N}gain</keyword>
+      <keyword>var\%{N}_eq\%{eqN}bw</keyword>
+      <keyword>var\%{N}_eq\%{eqN}freq</keyword>
+      <keyword>var\%{N}_eq\%{eqN}gain</keyword>
       <keyword>var\%{N}_mod</keyword>
       <keyword>var\%{N}_oncc\%{N}</keyword>
       <keyword>var\%{N}_pan</keyword>
