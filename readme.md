@@ -21,4 +21,4 @@ This [gedit](https://wiki.gnome.org/Apps/Gedit) configuration file will add synt
 
 - Generate `sfz.lang` using external sfz opcode list
 
-- Fix all known / unkown bugs
+- Fix known bugs
